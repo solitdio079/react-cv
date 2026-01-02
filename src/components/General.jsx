@@ -16,7 +16,7 @@ export default function General() {
   return (
     <>
       <section className="my-6 shadow-md rounded-sm p-10">
-        <h1 className="text-4xl font-bold my-10">General Information</h1>
+        <h1 className="text-2xl lg:text-4xl font-bold my-10">General Information</h1>
 
         {isSubmitted ? <div className="flex flex-col gap-3">
           <h1 className="text-lg"><Person2OutlinedIcon/> {fullName} </h1>
