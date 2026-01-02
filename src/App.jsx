@@ -3,6 +3,7 @@
 import Education from "./components/Education"
 import General from "./components/General"
 import Navbar from "./components/Navbar"
+import Practical from "./components/Practical"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Navbar/>
     <General/>
     <Education/>
+    <Practical/>
     </div>
   )
 }
